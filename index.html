@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Skundas</title>
+  </head>
+  <body>
+    <form action="skundsub.html" method="get">
+        <h1>Skundo formos paraiška</h1>
+      <label for="text"></label>
+      <input id="text" type="text" name="VARDAS" placeholder="VARDAS" size="40" required>
+  <br><br>
+  <label for="text"></label>
+  <input id="text" type="text" name="PAVARDĖ" placeholder="PAVARDĖ" size="40" required>
+  <br><br>
+  <label for="email"></label>
+  <input id="email" type="email" name="El.paštas" placeholder="El.paštas" size="40" required>
+  <br><br>
+  <label for="tel"></label>
+  <input id="tel" type="tel" name="Tel.numeris" placeholder="Tel.numeris" size="40" required>
+  <br><br>
+  <select name="select">
+  <option value="#" hidden>Parduotuvės pasirinkimas</option>
+    <option value="Vilnius">Maxima</option>
+    <option value="Kaunas">IKI</option>
+    <option value="Klaipeda">LIDL</option>
+    <option value="Siauliai">NORFA</option>
+
+  </select>
+  <br><br>
+  <label for="date"></label>
+  <input id="date" type="date" id="date" name="Apsilankymo laikas" placeholder="Apsilankymo laikas" size="40" required>
+<br><br>
+<p>Nusiskundimo tipas</p>
+  <input type="radio" id="Bloga prekė" name="Bloga prekė">
+  <label for="Bloga prekė">Bloga prekė</label><br>
+  <input type="radio" id="Aptarnavimas" name="Aptarnavimas">
+  <label for="Aptarnavimas">Aptarnavimas</label><br>
+  <input type="radio" id="Galiojimo laikas" name="Galiojimo laikas">
+  <label for="Galiojimo laikas">Galiojimo laikas</label>
+  <br>
+  <input type="radio" id="Kita" name="Kita">
+  <label for="Kita">Kita</label>
+  <br><br>
+  <label for="file">Nuotrauka</label>
+<input type="file" id="file" name="NUOTRAUKA">
+  <br><br>
+  <input type="checkbox" id="sutikimas" name="Sutikimas su privatumo politika">
+  <label for="sutikimas"> Sutikimas su privatumo politika </label><br>
+  <br><br>
+    <input type="submit" value="Submit">
+  </body>
+</html>

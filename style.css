@@ -1,0 +1,40 @@
+
+
+form{
+  width: 700px;
+  height: 600px;
+  background: #f3c623;
+  color: #364547;
+  text-align: center;
+  padding: 20px;
+}
+button{
+  background: black;
+  border: none;
+  color: #10375c;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+button{
+  cursor: pointer;
+}
+
+select{
+  width: 317px;
+  color: #10375c;
+}
+select:hover option{
+  color: black;
+}
+h1{
+  font-style: bold;
+  text-shadow: 1px 1px black;
+  color: white;
+}
+p{
+  text-decoration: underline;
+  color: #10375c;
+}
+style{
+  background-position: center;
+}
